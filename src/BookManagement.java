@@ -159,7 +159,7 @@ public class BookManagement {
             System.out.println("Khong tim thay sach co id la " + bookId);
         }else {
             for (int i = index; i < currentIndex - 1; i++ ){
-                books[index] = books[index + 1];
+                books[i] = books[i + 1];
             }
             currentIndex--;
         }
